@@ -359,3 +359,77 @@
      //}
 
     //No alert message appeared.
+
+//task6
+//var obMarks=prompt("Enter marks obtained in three Subjects");
+// var total=prompt("Enter total marks obtained");
+// var calci= (obmarks/total)*100;
+// document.write("<br> <hr> Total Marks :"+ " "+total);
+// document.write("<br> Marks Obtained : "+ " "+ obMarks);
+// document.write("<br> Percentage : "+ " "+calci +"%");
+// if(calci >= "80"){
+//        document.write("<br> Grade: A-one");
+//        document.write("Remarks: Excellent");
+// }
+// else if(calci >= "70"){
+//        document.write("<br> Grade: A");
+//        document.write("Remarks: Good");
+// }
+// else if(calci >= "60"){
+//        document.write("<br> Grade: B");
+//        document.write("Remarks: You need to improve");
+// }
+// else {
+//     document.write("<br> Grade: Fail");
+//     document.write("Remarks: Sorry");
+// }
+// var color=prompt("Enter the color of traffic signal");
+// if(color=="red"){
+//     alert("Must Stop");
+// }
+// else if(color=="yellow"){
+//     alert("Ready to move");
+// }
+// else if(color=="green"){
+//     alert("Move now");
+// }
+// else{
+//     alert("enter the color please");
+// }
+
+
+// //task-7 guess game
+// var secretNum=9;
+// var guess=+prompt(" Guess the secret number","enter secret number");
+// if(guess=="9"){
+//     alert("Bingo! Correct answer");
+
+// }
+// else if(guess=="8" || guess="10" ){
+//     alert("Close enough to correct answer");
+// }
+
+// else{
+// alert("Try again");
+// }
+
+// //task-8
+// var num3 = +prompt("Enter any number");
+// if(num3 % 3 == 0){
+//     alert("the entered number is divisible by 3");
+
+// } 
+// else{
+//     alert("The given number is not divisible by 3");
+// }
+
+// //task-9
+// var i= +prompt("Enter any number");
+// if(i%2==0){
+//     alert("The number is Even");
+// }
+// else{
+// alert("The number is Odd");
+// }
+
+
