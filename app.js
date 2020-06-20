@@ -413,6 +413,8 @@
 // alert("Try again");
 // }
 
+
+
 // //task-8
 // var num3 = +prompt("Enter any number");
 // if(num3 % 3 == 0){
@@ -423,13 +425,342 @@
 //     alert("The given number is not divisible by 3");
 // }
 
-// //task-9
-// var i= +prompt("Enter any number");
-// if(i%2==0){
-//     alert("The number is Even");
-// }
-// else{
-// alert("The number is Odd");
-// }
+
+
+//task9
+// var userInput;
+//     userInput=prompt("Enter any number!")
+//     if (userInput % 2 === 0){
+//         document.write("<h1> Even number </h1>");
+//     }
+//     else { document.write("<h1> Odd number </h1>");}
+
+
+
+//task10
+// var userTemperature;
+//     userTemperature=prompt("Enter Temperature!")
+//     if (userTemperature > 40){
+//         document.write("<h1> It is too hot outside. </h1>");
+//     }
+//     else if (userTemperature >=30 && userTemperature < 40){
+//          document.write("<h1> The Weather today is Normal </h1>");
+//         }
+//     else if (userTemperature >=20 && userTemperature < 30){
+//         document.write("<h1> Today's Weather is cool </h1>");
+//         }
+//     else{
+//         document.write("<h1> OMG! Today's weather is so cool </h1>");
+//     }
+    
+    
+    //task11
+    // var a=+(prompt("Enter First number:"));
+    // var b = +(prompt("Enter 2nd number:"));
+    // var op= prompt("Enter operator for operation?");
+    // var c=0;
+    // if (op === '+')
+    //     {
+    //         document.write(a + op + b + "=" + (a+b));
+    //     }
+    // else if (op === '-')
+    // {
+    //     document.write(a + op + b + "=" + (a-b));
+    // }
+    // else if (op === '*')
+    // {
+    //     document.write(a + op + b + "=" + (a*b));
+    // }
+   
+    // else if (op === '/')
+    // {
+    //     document.write(a + op + b + "=" + (a/b));
+    // }
+    // else if (op === '%')
+    // {
+    //     document.write(a + op + b + "=" + (a%b));
+    // }
+    // else { alert("Illegal operation")}
+
+
+//chap 12-13  
+ //task1
+    // var valueInput=prompt("Enter any character");
+    // var asciCode= valueInput.charCodeAt(0);
+    // // document.write("ASCI code is: " + valueInput.charCodeAt(0))
+    // if (asciCode >=45 && asciCode<=57)
+    //     {
+    //         document.write("You enter a digit");
+    //     }
+    // else if (asciCode >=65 && asciCode<=90)
+    //     {
+    //         document.write("You enter a capital letter");
+    //     }
+    // else if (asciCode >=97 && asciCode<=122)
+    //     {
+    //         document.write("You enter a small letter");
+    //     }
+    // else {
+    //     document.write("You enter a special character");
+    // }
+
+
+//task2
+    // var firstNumber=prompt("Enter 1st number");
+    // var secondNumber=prompt("Enter 2nd number");
+
+    // if (firstNumber === secondNumber)
+    //     {
+    //         document.write("Both digits are equal.");
+    //     }
+    // else if (firstNumber > secondNumber)
+    //     {
+    //         document.write("First Number is larger i.e. " + firstNumber);
+    //     }
+    // else 
+    //     {
+    //         document.write("Second number is larger i.e. "+ secondNumber);
+    //     }
+
+
+
+   //task3
+    // var firstNumber=prompt("Enter any number");
+
+    // if (firstNumber < 0)
+    //     {
+    //         document.write("You entered Negative number. ");
+    //     }
+    // else if (firstNumber > 0)
+    //     {
+    //         document.write("You entered Positive number. ");
+    //     }
+    // else 
+    //     {
+    //         document.write("You entered Zero.");                
+    //     }
+
+
+    //task4
+    // var valueInput=prompt("Enter any character");
+    // var asciCode= valueInput.charCodeAt(0);
+     // document.write("ASCI code is: " + valueInput.charCodeAt(0))
+    // if (asciCode === 65 || asciCode === 69 || asciCode === 73 || asciCode === 79 || asciCode === 85 
+     //     || asciCode === 97 || asciCode === 101 || asciCode === 105 || asciCode === 111 || asciCode === 117 )
+    //     {
+    //         document.write("Yes! you enter a Vowel Character.");
+    //     }
+    // else 
+    //     {
+    //         document.write("No. You enter other Character");
+    //     }
+
+
+    //task5
+    //     var validPassword="abc123";
+    // var inputPassword=prompt("Enter password:");
+    // if (inputPassword == null)
+    //     {
+    //         document.write("Please enter your password");            
+    //     }
+    // else if (inputPassword !== validPassword)
+    //     {
+    //         document.write("Incorrect password");
+    //     }
+    // else
+    //     {
+    //         document.write("Correct! The password you entered matches the original password");
+    //     }
+
+
+    //task6
+    // var greeting;
+    // var hour =13;
+    
+    // if (hour <18){
+    //     greeting="Good Day";
+    //     document.write(greeting);
+    // }
+    // else {
+    //     greeting="Good Evening"
+    //     document.write(greeting);
+    // }
+
+
+    //task7
+    // var timeInput=prompt("Enter time in 24 hours clock format!");
+    // if (timeInput >= 0000 && timeInput < 1200)
+    //     {
+    //         document.write("Good morning!");
+    //     }
+    // else if (timeInput >= 1200 && timeInput < 1700)
+    //     {
+    //         document.write("Good afternoon!");
+    //     }
+    // else if (timeInput >= 1700 && timeInput < 2100)
+    // {
+    //     document.write("Good evening!");
+    // }
+    // else if (timeInput >= 2100 && timeInput <= 2359)
+    // {
+    //     document.write("Good night!");
+    // }
+    // else 
+    // {
+    //     document.write("Your enter wrong time.")
+    // }
+
+
+
+
+    //chap14-16
+    //task1
+    // var empty = [];
+
+    //task2
+    // var myObject = new Array();
+
+    //task3
+    // var stringprovince = ["Sindh", "Punjab", "KPK", "Balochistan"];
+
+    //task4
+    // var stdAge = new Array(15,17,18);
+
+    //task5
+    // var boolean = [0, 1, 1, 0];
+
+    //task6
+    // var mixed = ["punjab", "ayesha", 2, "america"];
+
+    //task7
+    // var qualifications =["SSC", "HSC", "BCS","BS","BCOM","MS","M.Phil.","PhD"];
+    //     document.write("<h1> Qualifications: </h1>");
+    //     for (let i=0; i<qualifications.length; i++)
+    //         {
+    //             document.write((i+1)+") " + qualifications[i] + "<br>");
+    //         }
+
+
+
+        //task8
+        // var names =["Michael", "John", "Tony"];
+        // var marks = [320, 230, 480];
+        // var totalMarks=500;
+        
+        // for (let i=0; i<3; i++)
+        //     {
+               
+        //         document.write("<h2> Score of "+ names[i] + " is "+ marks[i]+ ". Percentage: "+marks[i]/totalMarks*100 +"% <br> </h2>");
+               
+        //     }
+
+
+
+        //task9
+        // var colors =["White", "Red", "Black"];
+        // var newColor;
+        // var newIdex;
+    
+        // document.write("<h2> Actual Array.</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        //     {
+        //         document.write((i+1)+") " + colors[i] + "<br>");
+        //     }
+        // newColor=prompt("Enter new color to add at the begenning!");
+        // colors.unshift(newColor);
+        // document.write("<h2> a.Added new color at the beginning.</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        // {
+        //     document.write((i+1)+") " + colors[i] + "<br>");
+        // }
+    
+        // newColor=prompt("Enter new color to add at the end!");
+        // colors.push(newColor);
+        // document.write("<h2> b.Added new color at the end.</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        // {
+        //     document.write((i+1)+") " + colors[i] + "<br>");
+        // }
+    
+        // colors.unshift("Brown", "Yellow");
+        // document.write("<h2> c.Added two more new color at the beginning.</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        // {
+        //     document.write((i+1)+") " + colors[i] + "<br>");
+        // }
+        // colors.shift();
+        // document.write("<h2> d.First Color Deleted ...</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        // {
+        //     document.write((i+1)+") " + colors[i] + "<br>");
+        // }
+    
+        // colors.pop();
+        // document.write("<h2> e.Last color Deleted ...</h2> <br>")
+        // for (let i=0; i<colors.length; i++)
+        // {
+        //     document.write((i+1)+") " + colors[i] + "<br>");
+    //     }
+    //     newIdex=prompt("Enter index to add new color!");
+    //     newColor=prompt("Enter new color to add at given index!");
+    //     // colors[newIdex]=newColor;
+    //     colors.splice(newIdex,0,newColor)
+    //     document.write("<h2> f.Array after adding new color at mentioned index  ...</h2> <br>")
+    // for (let i=0; i<colors.length; i++)
+    // {
+    //     document.write((i+1)+") " + colors[i] + "<br>");
+    // }
+
+    // newIdex=prompt("Enter index to delete color(s) from Array!");
+    // let indexLimit=prompt("Enter index limit that how many you want to delete!");
+    
+    // colors.splice(newIdex,indexLimit);
+
+    // document.write("<h2> g.Array after deleting color at mentioned index  ...</h2> <br>")
+    // for (let i=0; i<colors.length; i++)
+    // {
+    //     document.write((i+1)+") " + colors[i] + "<br>");
+    // }
+    
+
+    //task10
+    // var student=[320, 230, 480, 120];
+    // document.write("<h2> Scores of Students:" + student +"<br>");
+
+    // student.sort();
+    // document.write("Scores of Students:" + student + "</h2>");
+
+
+    //task11
+    // var cities=["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+    // var selectedCities=[];
+    // selectedCities.push(cities[2],cities[3]);
+
+    // document.write("<h2>Cities list:<br>");
+    // document.write (cities);
+    // document.write("<br> <br>");
+    // document.write("<h2>Selected cities list:<br>");
+    // document.write (selectedCities);
+       
+
+    //task12
+    // var arr=["This", "is", "my", "cat"];
+    // var joinArr=arr.join(" ");
+    // document.write("<h1>Array:<br>");
+    // document.write (arr);
+    // document.write("<br> <br>");
+    // document.write("String:<br>");
+    // document.write (joinArr);
+
+
+    //task15
+    // var arr=["nokia","samsung","iphone"]
+    // document.write("<select>")
+    // for(var i=0;i<arr.length;i++)
+    // {
+    //     document.write("<option>"+arr[i]+"</option>")
+    // }
+    // document.write("</select>")
+
 
 
